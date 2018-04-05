@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+}
+nav {
+	background-color: black;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("css/mac2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+	background-image: url("img/macswissarmy.jpg");
+	border: 10px;
+	margin: 0;
+	border-color: purple;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.footer{
+	background-color: black;
+	height: 50px;
+
+}
