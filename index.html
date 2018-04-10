@@ -3,6 +3,7 @@
 <head>
 	<title>Jonathan Cochran | Web and Mobile Developer </title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 </head>
 <body>
   <div class="hero-image">
@@ -31,6 +32,31 @@
       </div>
   </div>
   <button>learn more</button>
+</section>
+<!-- sorting function for skill section -->
+<section class="skill">
+<h2>My Languages</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('web')"> Web</button>
+  <button class="btn" onclick="filterSelection('mobile')"> Mobile</button>
+  <button class="btn" onclick="filterSelection('db')"> Databases</button>
+  <button class="btn" onclick="filterSelection('server')"> Server-side </button>
+</div>
+
+<!-- container section of skill boxes -->
+<div class="container">
+  <div class="filterDiv web"><i class="fab fa-html5 fa-2x"></i></div>
+  <div class="filterDiv server"><i class="fab fa-node fa-2x"></i></div>
+  <div class="filterDiv web"><i class="fab fa-css3-alt fa-2x"></i></div>
+  <div class="filterDiv mobile"><i class="fab fa-apple fa-2x"></i></div>
+  <div class="filterDiv web"><i class="fab fa-js-square fa-2x"></i></div>
+  <div class="filterDiv db"><i class="fab fa-microsoft fa-2x"></i></div>
+  <div class="filterDiv db"><i class="fas fa-leaf fa-2x"></i></div>
+  <div class="filterDiv server"><i class="fab fa-python fa-2x"></i></div>
+  <div class="filterDiv server">ASP.net</div>
+  <div class="filterDiv web">C#</div>
+</div>
 </section>
 <section class="social">
   <h2>social media section</h2>
@@ -63,5 +89,6 @@
   </div>
 </section>
 <footer><p>integrate links and logo here</p></footer>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
