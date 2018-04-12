@@ -143,9 +143,13 @@ section {
 
 }
 
-.footer {
-	
-	background-color: black;
-	height: 150px;
+.contact {
+ background-color: grey;
+ width: 100%;
+ border: 10px;
+ margin: 0px;
+ text-align: center;
+ display: inline-block;
+ position: center;
 
 }
