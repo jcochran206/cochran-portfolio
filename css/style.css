@@ -62,7 +62,7 @@ section {
   float: left;
   display: inline-block;
   text-align: center;
-  color: orange;
+  color: white;
   width: 33%;
   padding: 1px;
   margin: 0px;
@@ -114,7 +114,11 @@ section {
 }
 
 /* end of container sort*/
-
+.gallery{
+  background-color: #3f3f3f;
+  padding: 10px;
+  margin: 0px;
+}
 
 
 .parallax {
